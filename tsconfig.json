@@ -1,6 +1,6 @@
 {
   "exclude": [
-    "node_modules/**",
+    "node_modules/**/*.ts",
     "**/*.d.ts",
     "src/**/*test.ts"
   ],
