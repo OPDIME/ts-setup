@@ -3,6 +3,8 @@ src/
 jest.config.js
 .gitignore
 nodemon.json
+tsconfig.json
+tslint.json
 
 # IDEs
 .idea/
