@@ -22,7 +22,27 @@
   "bugs": {
     "url": "https://github.com/OPDIME/ts-setup/issues"
   },
+  "jest": {
+    "roots": [
+      "./src"
+    ],
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "homepage": "https://github.com/OPDIME/ts-setup#readme",
+  "dependencies": {
+    
+  },
   "devDependencies": {
     "@types/jest": "^23.1.1",
     "@types/node": "^10.3.4",
