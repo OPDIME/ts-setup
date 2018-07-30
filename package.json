@@ -8,7 +8,8 @@
     "build": "tsc",
     "build-watch": "tsc --watch",
     "lint": "tslint --project .",
-    "start": "nodemon"
+    "start": "nodemon",
+    "prepublish": "npm build"
   },
   "repository": {
     "type": "git",
@@ -40,9 +41,7 @@
     ]
   },
   "homepage": "https://github.com/OPDIME/ts-setup#readme",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^23.1.1",
     "@types/node": "^10.3.4",
